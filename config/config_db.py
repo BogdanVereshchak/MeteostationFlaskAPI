@@ -1,5 +1,4 @@
-#MONGO_URI = "mongodb://127.0.0.1:27017/" 
-MONGO_URI = "mongodb://localhost:27017/"
-DB_NAME = "weather_station"
-COLLECTION_NAME = "weather_data"
+MONGO_URI = "mongodb+srv://lux:ZcIBx4ktzuGzBxrm@cluster0.idplqbh.mongodb.net/?retryWrites=true&w=majority&appName=cluster0"
+DB_NAME = "meteostation"
+COLLECTION_NAME = "sensorData"
 CONFIG_NAME = "config"
