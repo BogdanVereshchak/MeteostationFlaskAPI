@@ -4,6 +4,12 @@ MONGO_URI = "mongodb+srv://lux:ZcIBx4ktzuGzBxrm@cluster0.idplqbh.mongodb.net/?ap
 DB_NAME = "meteostation"
 COLLECTION_NAME = "sensorData"
 CONFIG_NAME = "config"
+SECRET_KEY = b"BogdanNaziariiSimkoCharchok"
+
+AUTHORIZED_TOKENS = {
+    "MeteostationVereshchakToken": "station_01",
+    "MeteostationToken_1": "station_02"
+}
 
 # Weather API configuration
 OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY", "8f247d140dbb80523456d52163dec69d")
